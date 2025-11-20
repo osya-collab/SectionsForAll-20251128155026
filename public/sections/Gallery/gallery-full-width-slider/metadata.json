@@ -21,5 +21,10 @@
         "Homepage hero sections",
         "Travel websites",
         "Photography portfolios"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

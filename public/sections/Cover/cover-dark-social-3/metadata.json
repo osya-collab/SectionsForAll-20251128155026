@@ -18,5 +18,10 @@
         "Night Mode App",
         "Luxury Service",
         "Tech Product"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

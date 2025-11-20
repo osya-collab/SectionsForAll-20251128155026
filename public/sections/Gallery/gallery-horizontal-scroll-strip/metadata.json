@@ -23,5 +23,10 @@
         "Lookbooks",
         "Behind-the-scenes galleries",
         "Timeline of events"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

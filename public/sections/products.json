@@ -1,7 +1,7 @@
 [
     {
-        "id": "products-grid-minimalist-monochrome",
-        "name": "Products Grid Minimalist Monochrome",
+        "id": "product-showcase-geometric-pattern",
+        "name": "Product Showcase - Geometric Pattern",
         "category": "Products"
     },
     {
@@ -10,8 +10,8 @@
         "category": "Products"
     },
     {
-        "id": "products-showcase-split-layout",
-        "name": "Products Showcase Split Layout",
+        "id": "products-grid-minimalist-monochrome",
+        "name": "Products Grid Minimalist Monochrome",
         "category": "Products"
     },
     {
@@ -25,13 +25,8 @@
         "category": "Products"
     },
     {
-        "id": "product-highlight-modern-minimal",
-        "name": "Product Highlight - Modern Minimal",
-        "category": "Products"
-    },
-    {
-        "id": "product-showcase-geometric-pattern",
-        "name": "Product Showcase - Geometric Pattern",
+        "id": "products-showcase-split-layout",
+        "name": "Products Showcase Split Layout",
         "category": "Products"
     }
 ]

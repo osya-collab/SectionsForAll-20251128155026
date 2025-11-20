@@ -24,5 +24,10 @@
         "Architectural firms",
         "Interior design portfolios",
         "Real estate listings"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

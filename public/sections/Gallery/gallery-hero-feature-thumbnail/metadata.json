@@ -22,5 +22,10 @@
         "Photographer portfolios",
         "real estate listings",
         "product detail pages"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

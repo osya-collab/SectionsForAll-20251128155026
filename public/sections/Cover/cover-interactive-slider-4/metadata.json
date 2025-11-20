@@ -17,5 +17,10 @@
         "Process Explanation",
         "Service Overview",
         "Portfolio"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

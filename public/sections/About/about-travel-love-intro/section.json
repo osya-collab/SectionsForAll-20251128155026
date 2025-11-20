@@ -2,6 +2,7 @@
     "id": "about-travel-love-intro",
     "html": "\n<section class=\"travel-love-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container anim-fade-in\">\n        <div class=\"title-wrapper\">\n            <div class=\"gradient-blur\"></div>\n            <h2>{{t:title}}</h2>\n        </div>\n        <p>{{t:description}}</p>\n    </div>\n</section>",
     "css": "\n.travel-love-section { padding: 5rem 0; background-color: var(--color-light); }\n.travel-love-section .container {\n    width: 90%;\n    max-width: 800px;\n    margin: 0 auto;\n    text-align: center;\n    padding: 2rem;\n}\n.travel-love-section .title-wrapper {\n    position: relative;\n    margin-bottom: 2rem;\n}\n.travel-love-section .gradient-blur {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    width: 200px;\n    height: 100px;\n    background: radial-gradient(ellipse at center, #A855F7 0%, rgba(168, 85, 247, 0) 70%);\n    filter: blur(40px);\n    z-index: 0;\n}\n.travel-love-section h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark);\n    position: relative;\n    z-index: 1;\n}\n.travel-love-section p {\n    color: var(--color-secondary);\n    line-height: 1.7;\n}\n",
+    "js": "",
     "translations": {
         "de": {
             "name": "Reiseliebe Einleitung",

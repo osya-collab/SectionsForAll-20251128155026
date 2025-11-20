@@ -21,5 +21,10 @@
         "E-commerce product showcases",
         "Design portfolios",
         "Event photo galleries"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

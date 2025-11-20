@@ -23,5 +23,10 @@
         "photography websites",
         "art showcases",
         "agency landing pages"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

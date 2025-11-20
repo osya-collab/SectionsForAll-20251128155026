@@ -2,5 +2,15 @@
     "name": "Simple Centered Footer",
     "category": "Footer",
     "description": "A minimal, light-themed footer with centered logo, navigation links, and copyright text.",
-    "tags": ["footer", "minimalist", "centered", "light"]
+    "tags": [
+        "footer",
+        "minimalist",
+        "centered",
+        "light"
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

@@ -23,5 +23,10 @@
         "case studies",
         "feature explanations",
         "company services"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

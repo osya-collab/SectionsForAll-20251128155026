@@ -23,5 +23,10 @@
         "creative agencies",
         "artist portfolios",
         "fashion lookbooks"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

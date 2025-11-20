@@ -19,5 +19,10 @@
         "Architecture Firm",
         "Design Portfolio",
         "Editorial"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

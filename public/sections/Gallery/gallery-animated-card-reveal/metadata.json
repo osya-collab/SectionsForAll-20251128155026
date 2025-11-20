@@ -24,5 +24,10 @@
         "Team member sections",
         "Service or feature showcases",
         "Blog post listings"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

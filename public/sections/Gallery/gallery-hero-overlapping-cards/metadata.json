@@ -24,5 +24,10 @@
         "e-commerce category pages",
         "project showcases",
         "creative portfolios"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }

@@ -22,5 +22,10 @@
         "Artist portfolios",
         "Photography showcases",
         "Product galleries"
-    ]
+    ],
+    "style_analysis": {
+        "colors": [],
+        "fonts": [],
+        "visual_identity": "unknown"
+    }
 }
