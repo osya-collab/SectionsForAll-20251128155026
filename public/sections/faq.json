@@ -1,7 +1,27 @@
 [
     {
-        "id": "faq-image-overlay-5",
-        "name": "Image Overlay FAQ",
+        "id": "faq-grid-2col-v1",
+        "name": "Two-Column Grid FAQ",
+        "category": "Faq"
+    },
+    {
+        "id": "faq-glassmorphism-v1",
+        "name": "Glassmorphism FAQ",
+        "category": "Faq"
+    },
+    {
+        "id": "faq-timeline-connector-v1",
+        "name": "Timeline Connected FAQ",
+        "category": "Faq"
+    },
+    {
+        "id": "faq-box-border-simple-v1",
+        "name": "Box Border Simple",
+        "category": "Faq"
+    },
+    {
+        "id": "faq-colored-block-v1",
+        "name": "Colored Block FAQ",
         "category": "Faq"
     }
 ]
