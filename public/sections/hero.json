@@ -18,5 +18,10 @@
         "id": "hero-smart-v1",
         "name": "Smart Home Hero with Cards",
         "category": "Hero"
+    },
+    {
+        "id": "section-creative-grid-v1",
+        "name": "Creative Agency Grid",
+        "category": "Hero"
     }
 ]

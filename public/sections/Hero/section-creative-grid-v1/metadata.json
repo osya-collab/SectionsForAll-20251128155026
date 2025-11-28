@@ -1,0 +1,38 @@
+{
+    "name": "Creative Agency Grid",
+    "category": "Hero",
+    "description": "A complex masonry-style grid layout featuring mixed content blocks including images, feature text, and a call-to-action.",
+    "tags": [
+        "grid",
+        "masonry",
+        "agency",
+        "portfolio",
+        "creative"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "grid-wrapper",
+        "text-block",
+        "image-block"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "Agency Homepage",
+        "Portfolio Highlight",
+        "About Us Section"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#9b8558",
+            "#3a3a3a",
+            "#dcdcdc",
+            "#ffffff"
+        ],
+        "fonts": [
+            "Helvetica Neue",
+            "Georgia"
+        ],
+        "visual_identity": "Modern, geometric, grid-based layout with earthy tones and strong typography contrast."
+    }
+}
