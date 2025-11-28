@@ -1,0 +1,35 @@
+{
+    "name": "Smart Home Hero with Cards",
+    "category": "Hero",
+    "description": "Hero section with a dark image background top half, and overlapping info cards on the bottom half.",
+    "tags": [
+        "hero",
+        "cards",
+        "smart home",
+        "intro"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "hero-bg",
+        "row-layout",
+        "feature-cards"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "landing page",
+        "services intro"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f5f7fa",
+            "#222222",
+            "#ffffff"
+        ],
+        "fonts": [
+            "Roboto",
+            "Open Sans"
+        ],
+        "visual_identity": "Clean, modern, card-based UI with rounded corners and soft shadows."
+    }
+}

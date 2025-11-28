@@ -1,0 +1,33 @@
+{
+    "name": "Clean Testimonials",
+    "category": "Testimonials",
+    "description": "Simple 3-column testimonial cards with author name, text, and date.",
+    "tags": [
+        "testimonials",
+        "reviews",
+        "social proof"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "row-layout",
+        "review-cards"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "customer feedback",
+        "client stories"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f9f9f9",
+            "#ffffff",
+            "#222222"
+        ],
+        "fonts": [
+            "Roboto",
+            "Open Sans"
+        ],
+        "visual_identity": "Minimalist card design focusing on typography and whitespace."
+    }
+}

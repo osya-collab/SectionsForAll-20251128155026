@@ -1,0 +1,35 @@
+{
+    "name": "Dark Smart Footer",
+    "category": "Footer",
+    "description": "A comprehensive dark footer with a Call-To-Action bar on top and 3 columns of links/info below.",
+    "tags": [
+        "footer",
+        "dark",
+        "contact"
+    ],
+    "structure": [
+        "section",
+        "cta-bar",
+        "main-footer",
+        "row-layout",
+        "contact-col",
+        "links-col"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "site footer",
+        "contact info"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#1f252b",
+            "#8fa1b3",
+            "#ffffff"
+        ],
+        "fonts": [
+            "Roboto",
+            "Open Sans"
+        ],
+        "visual_identity": "Dark technical footer with high contrast text and organized columns."
+    }
+}

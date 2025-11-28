@@ -1,0 +1,32 @@
+{
+    "name": "Services Image Grid",
+    "category": "Features",
+    "description": "A 3-column grid of images with text overlays, showcasing different services or portfolio items.",
+    "tags": [
+        "grid",
+        "gallery",
+        "services"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "row-layout",
+        "card-grid"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "portfolio",
+        "service overview"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#ffffff",
+            "#222222"
+        ],
+        "fonts": [
+            "Roboto",
+            "Open Sans"
+        ],
+        "visual_identity": "Image-heavy grid with gradient overlays for text readability."
+    }
+}

@@ -13,5 +13,10 @@
         "id": "hero-pizza-v1",
         "name": "Pizzeria Hero",
         "category": "Hero"
+    },
+    {
+        "id": "hero-smart-v1",
+        "name": "Smart Home Hero with Cards",
+        "category": "Hero"
     }
 ]

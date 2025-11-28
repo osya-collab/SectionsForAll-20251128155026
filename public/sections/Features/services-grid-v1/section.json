@@ -1,0 +1,38 @@
+{
+    "id": "services-grid-v1",
+    "html": "<section class=\"section-services-grid-v1\" data-ai-id=\"element-placeholder\">\n  <div class=\"container\">\n    <div class=\"row-layout header-row\">\n      <div class=\"col-item col-12\">\n        <h2 class=\"section-heading\">{{t:grid_title}}</h2>\n      </div>\n    </div>\n    <div class=\"row-layout grid-row\">\n      <div class=\"col-item col-4\">\n        <div class=\"grid-card\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=outdoor+cctv+camera&amp;image_type=photo\" alt=\"Service\" class=\"grid-img\">\n          <div class=\"card-overlay\">\n            <h3>{{t:service_1}}</h3>\n            <p>{{t:service_desc}}</p>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-item col-4\">\n        <div class=\"grid-card\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=smart+thermostat+finger&amp;image_type=photo\" alt=\"Service\" class=\"grid-img\">\n          <div class=\"card-overlay\">\n            <h3>{{t:service_2}}</h3>\n            <p>{{t:service_desc}}</p>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-item col-4\">\n        <div class=\"grid-card\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=person+holding+smartphone+app&amp;image_type=photo\" alt=\"Service\" class=\"grid-img\">\n          <div class=\"card-overlay\">\n            <h3>{{t:service_3}}</h3>\n            <p>{{t:service_desc}}</p>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-item col-4\">\n        <div class=\"grid-card\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=amazon+echo+dot&amp;image_type=photo\" alt=\"Service\" class=\"grid-img\">\n          <div class=\"card-overlay\">\n            <h3>{{t:service_4}}</h3>\n            <p>{{t:service_desc}}</p>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-item col-4\">\n        <div class=\"grid-card\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=motion+sensor+light&amp;image_type=photo\" alt=\"Service\" class=\"grid-img\">\n          <div class=\"card-overlay\">\n            <h3>{{t:service_5}}</h3>\n            <p>{{t:service_desc}}</p>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-item col-4\">\n        <div class=\"grid-card\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=architect+drawing+plan&amp;image_type=photo\" alt=\"Service\" class=\"grid-img\">\n          <div class=\"card-overlay\">\n            <h3>{{t:service_6}}</h3>\n            <p>{{t:service_desc}}</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n\n<!-- Embedded Interactive Script -->\n<script>\n(function() {\n  const section = ((document.currentScript && document.currentScript.closest('.section-services-grid-v1')) || document.querySelector('.section-services-grid-v1'));\n  if (!section) return;\n  \n  const images = section.querySelectorAll('img');\n  \n  images.forEach(img => {\n    const src = img.getAttribute('src');\n    if (src && src.startsWith('https://pixabay.com/api/')) {\n      fetch(src)\n        .then(response => response.json())\n        .then(data => {\n          if (data.hits && data.hits.length > 0) {\n            img.src = data.hits[0].webformatURL;\n          }\n        })\n        .catch(err => console.error(err));\n    }\n  });\n})();\n</script>\n</section>",
+    "css": ".section-services-grid-v1 {\n  --color-bg: #ffffff;\n  \n  \n  \n  \n  padding: 80px 0;\n  background-color: var(--color-bg);\n  font-family: var(--font-body);\n}\n\n.section-services-grid-v1 .container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 15px;\n}\n\n.section-services-grid-v1 .row-layout {\n  display: flex;\n  flex-wrap: wrap;\n  margin: 0 -15px;\n}\n\n.section-services-grid-v1 .header-row {\n  justify-content: center;\n  text-align: center;\n  margin-bottom: 50px;\n}\n\n.section-services-grid-v1 .section-heading {\n  font-family: var(--font-heading);\n  font-size: 2.5rem;\n  color: var(--color-dark);\n  font-weight: 400;\n}\n\n.section-services-grid-v1 .col-item {\n  padding: 15px;\n  box-sizing: border-box;\n}\n\n.section-services-grid-v1 .col-4 {\n  width: 33.333%;\n}\n\n.section-services-grid-v1 .col-12 {\n  width: 100%;\n}\n\n.section-services-grid-v1 .grid-card {\n  position: relative;\n  border-radius: 20px;\n  overflow: hidden;\n  height: 300px;\n  background: var(--color-light);\n}\n\n.section-services-grid-v1 .grid-img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  transition: transform 0.5s ease;\n}\n\n.section-services-grid-v1 .grid-card:hover .grid-img {\n  transform: scale(1.1);\n}\n\n.section-services-grid-v1 .card-overlay {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);\n  padding: 30px 20px;\n  box-sizing: border-box;\n  color: #fff;\n}\n\n.section-services-grid-v1 .card-overlay h3 {\n  font-family: var(--font-heading);\n  font-size: 1.2rem;\n  margin: 0 0 5px 0;\n}\n\n.section-services-grid-v1 .card-overlay p {\n  font-size: 0.85rem;\n  opacity: 0.8;\n  margin: 0;\n}\n\n@media (max-width: 992px) {\n  .section-services-grid-v1 .col-4 {\n    width: 50%;\n  }\n}\n\n@media (max-width: 576px) {\n  .section-services-grid-v1 .col-4 {\n    width: 100%;\n  }\n}",
+    "js": "",
+    "translations": {
+        "en": {
+            "grid_title": "Manage Everything",
+            "service_1": "Outdoor CCTV",
+            "service_2": "Temperature Controller",
+            "service_3": "Tracking",
+            "service_4": "Auto Control",
+            "service_5": "Motion Sensor",
+            "service_6": "Heating Plan",
+            "service_desc": "Ut enim ad minim veniam"
+        },
+        "ar": {
+            "grid_title": "إدارة كل شيء",
+            "service_1": "كاميرات المراقبة الخارجية",
+            "service_2": "وحدة التحكم في درجة الحرارة",
+            "service_3": "التتبع",
+            "service_4": "التحكم الآلي",
+            "service_5": "مستشعر الحركة",
+            "service_6": "خطة التدفئة",
+            "service_desc": "وت إينيم أد مينيم فينيام"
+        },
+        "de": {
+            "grid_title": "Alles Verwalten",
+            "service_1": "Außen-CCTV",
+            "service_2": "Temperaturregler",
+            "service_3": "Verfolgung",
+            "service_4": "Automatische Steuerung",
+            "service_5": "Bewegungssensor",
+            "service_6": "Heizplan",
+            "service_desc": "Ut enim ad minim veniam"
+        }
+    }
+}

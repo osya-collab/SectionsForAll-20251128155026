@@ -1,0 +1,38 @@
+{
+    "id": "testimonials-cards-v1",
+    "html": "<section class=\"section-testimonials-cards-v1\" data-ai-id=\"element-placeholder\">\n  <div class=\"container\">\n    <div class=\"row-layout header-row\">\n      <div class=\"col-item col-12\">\n        <h2 class=\"section-title\">{{t:testi_title}}</h2>\n      </div>\n    </div>\n    <div class=\"row-layout cards-row\">\n      <div class=\"col-item col-4\">\n        <div class=\"review-card\">\n          <h4 class=\"author\">{{t:author_1}}</h4>\n          <p class=\"review-text\">{{t:review_text}}</p>\n          <span class=\"date\">{{t:date_1}}</span>\n        </div>\n      </div>\n      <div class=\"col-item col-4\">\n        <div class=\"review-card\">\n          <h4 class=\"author\">{{t:author_2}}</h4>\n          <p class=\"review-text\">{{t:review_text}}</p>\n          <span class=\"date\">{{t:date_2}}</span>\n        </div>\n      </div>\n      <div class=\"col-item col-4\">\n        <div class=\"review-card\">\n          <h4 class=\"author\">{{t:author_3}}</h4>\n          <p class=\"review-text\">{{t:review_text}}</p>\n          <span class=\"date\">{{t:date_3}}</span>\n        </div>\n      </div>\n    </div>\n  </div>\n\n\n<!-- Embedded Interactive Script -->\n<script>\n(function() {\n  console.log('Testimonials loaded');\n})();\n</script>\n</section>",
+    "css": ".section-testimonials-cards-v1 {\n  --color-bg: #f9f9f9;\n  --color-card-bg: #ffffff;\n  \n  --color-text: #666666;\n  \n  \n  \n  padding: 80px 0;\n  background-color: var(--color-bg);\n  font-family: var(--font-body);\n}\n\n.section-testimonials-cards-v1 .container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 15px;\n}\n\n.section-testimonials-cards-v1 .row-layout {\n  display: flex;\n  flex-wrap: wrap;\n  margin: 0 -15px;\n}\n\n.section-testimonials-cards-v1 .header-row {\n  justify-content: center;\n  margin-bottom: 50px;\n}\n\n.section-testimonials-cards-v1 .section-title {\n  font-family: var(--font-heading);\n  font-size: 2.2rem;\n  color: var(--color-dark);\n  text-align: center;\n}\n\n.section-testimonials-cards-v1 .col-item {\n  padding: 0 15px;\n  box-sizing: border-box;\n}\n\n.section-testimonials-cards-v1 .col-4 {\n  width: 33.333%;\n}\n\n.section-testimonials-cards-v1 .col-12 {\n  width: 100%;\n}\n\n.section-testimonials-cards-v1 .review-card {\n  background: var(--color-card-bg);\n  padding: 30px;\n  border-radius: 15px;\n  box-shadow: 0 5px 20px rgba(0,0,0,0.03);\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.section-testimonials-cards-v1 .author {\n  font-family: var(--font-heading);\n  font-size: 1.1rem;\n  color: var(--color-dark);\n  margin: 0 0 15px 0;\n  font-weight: 700;\n}\n\n.section-testimonials-cards-v1 .review-text {\n  font-size: 0.95rem;\n  color: var(--color-text);\n  line-height: 1.6;\n  margin-bottom: 20px;\n  flex-grow: 1;\n}\n\n.section-testimonials-cards-v1 .date {\n  font-size: 0.8rem;\n  color: #999;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  border-top: 1px solid var(--color-border);\n  padding-top: 15px;\n}\n\n@media (max-width: 992px) {\n  .section-testimonials-cards-v1 .col-4 {\n    width: 100%;\n    margin-bottom: 20px;\n  }\n}",
+    "js": "",
+    "translations": {
+        "en": {
+            "testi_title": "What People Say?",
+            "author_1": "Stella Larson",
+            "author_2": "Nick Jhonson",
+            "author_3": "Olga Ivanova",
+            "review_text": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus.",
+            "date_1": "MONDAY, MAY 2024",
+            "date_2": "MONDAY, JUNE 2024",
+            "date_3": "MONDAY, MAY 2024"
+        },
+        "ar": {
+            "testi_title": "ماذا يقول الناس؟",
+            "author_1": "ستيلا لارسون",
+            "author_2": "نيك جونسون",
+            "author_3": "أولغا إيفانوفا",
+            "review_text": "بروين سيد ليبيرو إينيم سيد فوسيبيوس توربيس. أت إمبيرديت دوي أكومسان سيت أميت نولا فاسيليسي موربي تيمبوس.",
+            "date_1": "الاثنين، مايو 2024",
+            "date_2": "الاثنين، يونيو 2024",
+            "date_3": "الاثنين، مايو 2024"
+        },
+        "de": {
+            "testi_title": "Was sagen die Leute?",
+            "author_1": "Stella Larson",
+            "author_2": "Nick Jhonson",
+            "author_3": "Olga Ivanova",
+            "review_text": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus.",
+            "date_1": "MONTAG, MAI 2024",
+            "date_2": "MONTAG, JUNI 2024",
+            "date_3": "MONTAG, MAI 2024"
+        }
+    }
+}

@@ -23,5 +23,15 @@
         "id": "menu-grid-v1",
         "name": "Visual Pizza Grid",
         "category": "Features"
+    },
+    {
+        "id": "about-split-v1",
+        "name": "About Split Section",
+        "category": "Features"
+    },
+    {
+        "id": "services-grid-v1",
+        "name": "Services Image Grid",
+        "category": "Features"
     }
 ]

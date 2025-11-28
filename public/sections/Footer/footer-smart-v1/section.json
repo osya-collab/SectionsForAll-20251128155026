@@ -1,0 +1,50 @@
+{
+    "id": "footer-smart-v1",
+    "html": "<section class=\"section-footer-smart-v1\" data-ai-id=\"element-placeholder\">\n  <div class=\"cta-bar\">\n    <div class=\"container\">\n      <div class=\"row-layout cta-row\">\n        <div class=\"col-item col-8\">\n          <h2>{{t:footer_cta_title}}</h2>\n          <p>{{t:footer_cta_desc}}</p>\n        </div>\n        <div class=\"col-item col-4 cta-btn-col\">\n          <a href=\"#\" class=\"btn-cta\">{{t:talk_expert}}</a>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"main-footer\">\n    <div class=\"container\">\n      <div class=\"row-layout\">\n        <div class=\"col-item col-4\">\n          <div class=\"footer-brand\">\n             <div class=\"logo\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=home+icon+white&amp;image_type=vector\" alt=\"Logo\" class=\"logo-img\">\n                <span>SMART HOME</span>\n             </div>\n             <p class=\"footer-desc\">{{t:footer_desc}}</p>\n             <div class=\"contact-info\">\n               <p>📍 7507 Dewey Route, East Darrylville, ME 36932</p>\n               <a href=\"#\">{{t:show_map}}</a>\n             </div>\n          </div>\n        </div>\n        <div class=\"col-item col-4\">\n          <h4 class=\"footer-heading\">{{t:need_help}}</h4>\n          <div class=\"phone-block\">\n             <span class=\"phone-number\">+1-800-123-4567</span>\n             <p class=\"hours\">Monday - Friday: 9:00 - 20:00<br>Saturday: 11:00 - 15:00</p>\n          </div>\n          <div class=\"email-block\">\n            <a href=\"mailto:smarthome@support.com\">smarthome@support.com</a>\n          </div>\n        </div>\n        <div class=\"col-item col-4\">\n          <h4 class=\"footer-heading\">{{t:quick_links}}</h4>\n          <ul class=\"footer-links\">\n            <li><a href=\"#\">{{t:link_about}}</a></li>\n            <li><a href=\"#\">{{t:link_services}}</a></li>\n            <li><a href=\"#\">{{t:link_blog}}</a></li>\n            <li><a href=\"#\">{{t:link_testimonials}}</a></li>\n            <li><a href=\"#\">{{t:link_contact}}</a></li>\n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n\n\n<!-- Embedded Interactive Script -->\n<script>\n(function() {\n  const section = ((document.currentScript && document.currentScript.closest('.section-footer-smart-v1')) || document.querySelector('.section-footer-smart-v1'));\n  if (!section) return;\n  \n  const images = section.querySelectorAll('img');\n  \n  images.forEach(img => {\n    const src = img.getAttribute('src');\n    if (src && src.startsWith('https://pixabay.com/api/')) {\n      fetch(src)\n        .then(response => response.json())\n        .then(data => {\n          if (data.hits && data.hits.length > 0) {\n            img.src = data.hits[0].webformatURL;\n          }\n        })\n        .catch(err => console.error(err));\n    }\n  });\n})();\n</script>\n</section>",
+    "css": ".section-footer-smart-v1 {\n  --color-dark-bg: #1f252b;\n  --color-darker: #15191d;\n  --color-text: #8fa1b3;\n  --color-white: #ffffff;\n  \n  \n  \n  font-family: var(--font-body);\n}\n\n.section-footer-smart-v1 .cta-bar {\n  background-color: var(--color-darker);\n  padding: 50px 0;\n  border-bottom: 1px solid rgba(255,255,255,0.05);\n}\n\n.section-footer-smart-v1 .container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 15px;\n}\n\n.section-footer-smart-v1 .row-layout {\n  display: flex;\n  flex-wrap: wrap;\n  margin: 0 -15px;\n}\n\n.section-footer-smart-v1 .col-item {\n  padding: 0 15px;\n  box-sizing: border-box;\n}\n\n.section-footer-smart-v1 .col-8 {\n  width: 66.666%;\n}\n\n.section-footer-smart-v1 .col-4 {\n  width: 33.333%;\n}\n\n.section-footer-smart-v1 .cta-row {\n  align-items: center;\n}\n\n.section-footer-smart-v1 .cta-bar h2 {\n  color: var(--color-white);\n  margin: 0 0 10px 0;\n  font-family: var(--font-heading);\n}\n\n.section-footer-smart-v1 .cta-bar p {\n  color: var(--color-text);\n  margin: 0;\n}\n\n.section-footer-smart-v1 .cta-btn-col {\n  text-align: right;\n}\n\n.section-footer-smart-v1 .btn-cta {\n  background-color: var(--color-primary);\n  color: var(--color-white);\n  padding: 12px 25px;\n  border-radius: 25px;\n  text-decoration: none;\n  font-weight: 600;\n  text-transform: uppercase;\n  font-size: 0.85rem;\n}\n\n.section-footer-smart-v1 .main-footer {\n  background-color: var(--color-dark-bg);\n  padding: 70px 0;\n  color: var(--color-text);\n}\n\n.section-footer-smart-v1 .logo {\n  display: flex;\n  align-items: center;\n  margin-bottom: 20px;\n}\n\n.section-footer-smart-v1 .logo-img {\n  width: 30px;\n  height: 30px;\n  margin-right: 10px;\n}\n\n.section-footer-smart-v1 .logo span {\n  color: var(--color-white);\n  font-weight: 700;\n  font-size: 1.2rem;\n  font-family: var(--font-heading);\n}\n\n.section-footer-smart-v1 .footer-desc {\n  font-size: 0.9rem;\n  line-height: 1.6;\n  margin-bottom: 20px;\n}\n\n.section-footer-smart-v1 .contact-info p {\n  font-size: 0.85rem;\n  margin-bottom: 5px;\n}\n\n.section-footer-smart-v1 .contact-info a {\n  color: var(--color-primary);\n  font-size: 0.85rem;\n  text-decoration: underline;\n}\n\n.section-footer-smart-v1 .footer-heading {\n  color: var(--color-white);\n  margin: 0 0 25px 0;\n  font-size: 1.1rem;\n  font-family: var(--font-heading);\n}\n\n.section-footer-smart-v1 .phone-number {\n  display: block;\n  color: var(--color-primary);\n  font-size: 1.2rem;\n  margin-bottom: 5px;\n}\n\n.section-footer-smart-v1 .hours {\n  font-size: 0.85rem;\n}\n\n.section-footer-smart-v1 .footer-links {\n  list-style: none;\n  padding: 0;\n}\n\n.section-footer-smart-v1 .footer-links li {\n  margin-bottom: 10px;\n}\n\n.section-footer-smart-v1 .footer-links a {\n  color: var(--color-text);\n  text-decoration: none;\n  transition: color 0.3s;\n}\n\n.section-footer-smart-v1 .footer-links a:hover {\n  color: var(--color-white);\n}\n\n@media (max-width: 768px) {\n  .section-footer-smart-v1 .col-8, \n  .section-footer-smart-v1 .col-4 {\n    width: 100%;\n    text-align: center;\n    margin-bottom: 30px;\n  }\n  .section-footer-smart-v1 .cta-btn-col {\n    text-align: center;\n  }\n}",
+    "js": "",
+    "translations": {
+        "en": {
+            "footer_cta_title": "Ready to get started?",
+            "footer_cta_desc": "Let's talk about creating your competitive advantage.",
+            "talk_expert": "TALK TO AN EXPERT",
+            "footer_desc": "We offer fully customizable solutions that cater to individual needs.",
+            "show_map": "show on map",
+            "need_help": "Need help?",
+            "quick_links": "Quick Links",
+            "link_about": "About Company",
+            "link_services": "Our Services",
+            "link_blog": "Blog",
+            "link_testimonials": "Testimonials",
+            "link_contact": "Contact"
+        },
+        "ar": {
+            "footer_cta_title": "مستعد للبدء؟",
+            "footer_cta_desc": "دعنا نتحدث عن خلق ميزتك التنافسية.",
+            "talk_expert": "تحدث إلى خبير",
+            "footer_desc": "نقدم حلولاً قابلة للتخصيص بالكامل تلبي الاحتياجات الفردية.",
+            "show_map": "عرض على الخريطة",
+            "need_help": "تحتاج مساعدة؟",
+            "quick_links": "روابط سريعة",
+            "link_about": "عن الشركة",
+            "link_services": "خدماتنا",
+            "link_blog": "مدونة",
+            "link_testimonials": "الشهادات",
+            "link_contact": "اتصل بنا"
+        },
+        "de": {
+            "footer_cta_title": "Bereit anzufangen?",
+            "footer_cta_desc": "Lassen Sie uns über Ihren Wettbewerbsvorteil sprechen.",
+            "talk_expert": "MIT EINEM EXPERTEN SPRECHEN",
+            "footer_desc": "Wir bieten vollständig anpassbare Lösungen für individuelle Bedürfnisse.",
+            "show_map": "auf karte anzeigen",
+            "need_help": "Brauchen Sie Hilfe?",
+            "quick_links": "Schnelllinks",
+            "link_about": "Über das Unternehmen",
+            "link_services": "Unsere Dienstleistungen",
+            "link_blog": "Blog",
+            "link_testimonials": "Referenzen",
+            "link_contact": "Kontakt"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": "about-split-v1",
+    "html": "<section class=\"section-about-split-v1\" data-ai-id=\"element-placeholder\">\n  <div class=\"container\">\n    <div class=\"row-layout\">\n      <div class=\"col-item col-text\">\n        <h2 class=\"section-title\">{{t:about_title}}</h2>\n        <ul class=\"feature-list\">\n          <li><span class=\"check\">✓</span> {{t:feat_1}}</li>\n          <li><span class=\"check\">✓</span> {{t:feat_2}}</li>\n          <li><span class=\"check\">✓</span> {{t:feat_3}}</li>\n          <li><span class=\"check\">✓</span> {{t:feat_4}}</li>\n          <li><span class=\"check\">✓</span> {{t:feat_5}}</li>\n          <li><span class=\"check\">✓</span> {{t:feat_6}}</li>\n        </ul>\n        <a href=\"#\" class=\"btn-outline\">{{t:btn_inspired}}</a>\n      </div>\n      <div class=\"col-item col-image\">\n        <div class=\"image-wrapper\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=hand+touching+smart+home+device&amp;image_type=photo\" alt=\"Smart Control\" class=\"feature-img\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n\n<!-- Embedded Interactive Script -->\n<script>\n(function() {\n  const section = ((document.currentScript && document.currentScript.closest('.section-about-split-v1')) || document.querySelector('.section-about-split-v1'));\n  if (!section) return;\n  \n  const images = section.querySelectorAll('img');\n  \n  images.forEach(img => {\n    const src = img.getAttribute('src');\n    if (src && src.startsWith('https://pixabay.com/api/')) {\n      fetch(src)\n        .then(response => response.json())\n        .then(data => {\n          if (data.hits && data.hits.length > 0) {\n            img.src = data.hits[0].webformatURL;\n          }\n        })\n        .catch(err => console.error(err));\n    }\n  });\n})();\n</script>\n</section>",
+    "css": ".section-about-split-v1 {\n  --color-bg: #f5f7fa;\n  \n  \n  --color-text: #555555;\n  \n  \n  padding: 80px 0;\n  background-color: var(--color-bg);\n  font-family: var(--font-body);\n}\n\n.section-about-split-v1 .container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 15px;\n}\n\n.section-about-split-v1 .row-layout {\n  display: flex;\n  align-items: center;\n  flex-wrap: wrap;\n  margin: 0 -15px;\n}\n\n.section-about-split-v1 .col-item {\n  padding: 0 15px;\n  box-sizing: border-box;\n}\n\n.section-about-split-v1 .col-text {\n  width: 40%;\n}\n\n.section-about-split-v1 .col-image {\n  width: 60%;\n}\n\n.section-about-split-v1 .section-title {\n  font-family: var(--font-heading);\n  font-size: 2.5rem;\n  color: var(--color-dark);\n  margin-bottom: 30px;\n  font-weight: 400;\n}\n\n.section-about-split-v1 .feature-list {\n  list-style: none;\n  padding: 0;\n  margin: 0 0 40px 0;\n}\n\n.section-about-split-v1 .feature-list li {\n  font-size: 1rem;\n  color: var(--color-text);\n  margin-bottom: 12px;\n  display: flex;\n  align-items: center;\n}\n\n.section-about-split-v1 .check {\n  color: var(--color-primary);\n  margin-right: 10px;\n  font-weight: bold;\n}\n\n.section-about-split-v1 .btn-outline {\n  display: inline-block;\n  padding: 12px 30px;\n  border: 1px solid var(--color-primary);\n  border-radius: 30px;\n  color: var(--color-primary);\n  text-decoration: none;\n  text-transform: uppercase;\n  font-size: 0.85rem;\n  letter-spacing: 1px;\n  transition: all 0.3s ease;\n}\n\n.section-about-split-v1 .btn-outline:hover {\n  background-color: var(--color-primary);\n  color: #fff;\n}\n\n.section-about-split-v1 .image-wrapper {\n  border-radius: 20px;\n  overflow: hidden;\n  box-shadow: 0 15px 40px rgba(0,0,0,0.1);\n}\n\n.section-about-split-v1 .feature-img {\n  width: 100%;\n  height: auto;\n  display: block;\n}\n\n@media (max-width: 992px) {\n  .section-about-split-v1 .col-text, \n  .section-about-split-v1 .col-image {\n    width: 100%;\n  }\n  .section-about-split-v1 .col-text {\n    margin-bottom: 40px;\n  }\n}",
+    "js": "",
+    "translations": {
+        "en": {
+            "about_title": "About Smart Home",
+            "feat_1": "Smart Lighting Setup",
+            "feat_2": "Media Room Setup",
+            "feat_3": "Home Theater Setup",
+            "feat_4": "Smart Doorbell Installation",
+            "feat_5": "Smart Thermostat Installation",
+            "feat_6": "Smart Door Lock Installation",
+            "btn_inspired": "GET INSPIRED"
+        },
+        "ar": {
+            "about_title": "حول المنزل الذكي",
+            "feat_1": "إعداد الإضاءة الذكية",
+            "feat_2": "إعداد غرفة الوسائط",
+            "feat_3": "إعداد المسرح المنزلي",
+            "feat_4": "تركيب جرس الباب الذكي",
+            "feat_5": "تركيب الترموستات الذكي",
+            "feat_6": "تركيب قفل الباب الذكي",
+            "btn_inspired": "احصل على الإلهام"
+        },
+        "de": {
+            "about_title": "Über Smart Home",
+            "feat_1": "Intelligente Beleuchtung",
+            "feat_2": "Medienraum-Einrichtung",
+            "feat_3": "Heimkino-Einrichtung",
+            "feat_4": "Installation der intelligenten Türklingel",
+            "feat_5": "Installation des intelligenten Thermostats",
+            "feat_6": "Installation des intelligenten Türschlosses",
+            "btn_inspired": "LASS DICH INSPIRIEREN"
+        }
+    }
+}

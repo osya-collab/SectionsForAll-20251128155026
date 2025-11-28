@@ -1,0 +1,33 @@
+{
+    "name": "About Split Section",
+    "category": "Features",
+    "description": "A split section with a checklist on the left and a large feature image on the right.",
+    "tags": [
+        "about",
+        "features",
+        "split"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "row-layout",
+        "text-col",
+        "image-col"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "about us",
+        "product features"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f5f7fa",
+            "#78909c"
+        ],
+        "fonts": [
+            "Roboto",
+            "Open Sans"
+        ],
+        "visual_identity": "Clean, list-based layout with rounded outline buttons."
+    }
+}

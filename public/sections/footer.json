@@ -73,5 +73,10 @@
         "id": "footer-contact-v1",
         "name": "Footer Contact Cards",
         "category": "Footer"
+    },
+    {
+        "id": "footer-smart-v1",
+        "name": "Dark Smart Footer",
+        "category": "Footer"
     }
 ]
