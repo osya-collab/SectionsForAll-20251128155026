@@ -3,5 +3,30 @@
         "id": "cta-gradient-banner",
         "name": "Gradient CTA Banner",
         "category": "CTA"
+    },
+    {
+        "id": "hero-modern-cta-4r",
+        "name": "Modern Hero with CTA",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-banner-simple-7q",
+        "name": "Simple CTA Banner",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-section-overlap-bg-5k",
+        "name": "Overlap CTA with Background",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-split-screen-form-3c",
+        "name": "Split Screen CTA with Form",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-icon-list-grouped-7p",
+        "name": "Grouped Icon List CTA",
+        "category": "Cta"
     }
 ]
